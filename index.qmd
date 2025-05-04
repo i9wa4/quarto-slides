@@ -1,0 +1,17 @@
+---
+title: "quarto-slides"
+listing:
+  - id: "list-all"
+    contents:
+      - "slides"
+    exclude:
+      filename:
+        - "index.qmd"
+    sort:
+      - "date desc"
+      - "title"
+    type: grid
+---
+
+::: {#list-all}
+:::

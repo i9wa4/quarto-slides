@@ -1,0 +1,12 @@
+format:
+  revealjs:
+    incremental: true
+    mainfont: "Noto Sans JP"
+    scrollable: true
+    self-contained: true
+    slide-level: 2
+    slide-number: true
+    smaller: false
+    theme:
+      - default
+      - custom.scss

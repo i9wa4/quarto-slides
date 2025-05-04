@@ -1,0 +1,22 @@
+project:
+  type: default
+  output-dir: "_output"
+
+website:
+  title: "quarto-slides"
+  site-url: "https://dummy.github.io"
+
+format:
+  html:
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+    linestretch: 1.4
+    page-layout: full
+    toc-depth: 2
+    toc-expand: true
+    toc-title: "Table of Contents"
+    toc: true
