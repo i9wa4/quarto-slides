@@ -1,22 +1,46 @@
 ---
-title: "test"
+title: スライドタイトル スライドタイトル スライドタイトル
 author: uma-chan
 date: 2025-06-01
 date-modified: last-modified
+format: revealjs
 ---
 
 ## 1. test
 
-aaa
+### 1.1. aaaa
+
+> test test
+
+[https://example.com](https://example.com)
+
+```{.yaml}
+format:
+  revealjs:
+    # incremental: true
+    # mainfont: "Noto Sans JP"
+    scrollable: true
+    self-contained: true
+    slide-level: 3
+    slide-number: true
+    # smaller: true
+    theme:
+      - default
+      # - custom.scss
+```
 
 ## 2. test
 
-bbb
+### 2.1. aa
 
-## 3. test
+|     |     |
+| --- | --- |
+| aaa | bbb |
+| aaa | bbb |
+| aaa | bbb |
+| aaa | bbb |
+| aaa | bbb |
+| aaa | bbb |
 
-ccc
 
-## 4. test
 
-ddd

@@ -1,7 +1,15 @@
-# This file can be used to override project-level settings for the slides directory.
-# Add specific format settings for revealjs below if needed.
-# Example:
-# format:
-#   revealjs:
-#     slide-number: c/t
-
+format:
+  revealjs:
+    scrollable: true
+    self-contained: true
+    slide-level: 3
+    slide-number: true
+    theme:
+      - default
+      - custom.scss
+    width: 1920
+    height: 1080
+    # mainfont: "Noto Sans JP"
+    # title-slide-attributes:
+    #   data-background-color: "#001722"
+    #   data-foreground-color: "#f3f4f4"
