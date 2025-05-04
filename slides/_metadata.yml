@@ -1,12 +1,6 @@
-format:
-  revealjs:
-    incremental: true
-    mainfont: "Noto Sans JP"
-    scrollable: true
-    self-contained: true
-    slide-level: 2
-    slide-number: true
-    smaller: false
-    theme:
-      - default
-      - custom.scss
+# This file can be used to override project-level settings for the slides directory.
+# Add specific format settings for revealjs below if needed.
+# Example:
+# format:
+#   revealjs:
+#     slide-number: c/t
