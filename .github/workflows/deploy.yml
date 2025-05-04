@@ -1,0 +1,30 @@
+name: Build and Deploy Quarto Website
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render Quarto Website
+        run: |
+          quarto render
+
+      - name: Deploy to GitHub Pages branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _output  # Quartoのデフォルト出力ディレクトリ
+          branch: html  # デプロイ先のブランチ
+          clean: true  # デプロイ前にブランチをクリーン
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
