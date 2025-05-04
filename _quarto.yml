@@ -2,12 +2,20 @@ project:
   type: website
   output-dir: "_output"
 
+format:
+  revealjs:
+    aspectratio: 16x9
+    # theme: # You can uncomment and set themes here if needed
+    #   light: flatly
+    #   dark: darkly
+    theme: slides/custom.scss # Apply custom theme
+
 date-format: iso
-# theme:
+# theme: # This theme block is likely overridden by format specific theme
 #   # https://quarto.org/docs/output-formats/html-themes.html
-#   light: flatly
-#   dark: darkly
+#   light: flatly # These are likely overridden now
+#   dark: darkly # by the format specific theme above
 
 website:
   title: "quarto-slides"
-  navbar: true
+  navbar: true # Note: navbar is typically for websites, not slides. Might remove if only slides.
