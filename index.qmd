@@ -1,11 +1,12 @@
 ---
 title: "quarto-slides"
 listing:
-  contents:
-    - "slides"
-  sort:
-    - "date desc"
-    - "title"
+  - id: "list-all"
+    contents:
+      - "slides"
+    sort:
+      - "date desc"
+      - "title"
 ---
 
 ::: {#list-all}

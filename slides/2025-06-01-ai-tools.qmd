@@ -1,46 +1,90 @@
 ---
 title: スライドタイトル スライドタイトル スライドタイトル
-author: uma-chan
+author: uma-chan uma-chan
 date: 2025-06-01
 date-modified: last-modified
 format: revealjs
 ---
 
-## 1. test
+## 1. aaaa
 
-### 1.1. aaaa
+## 2. test
+
+### 2.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+[https://example.com](https://example.com)
+
+https://example.com
+
+https://example.com
+
+- bbbbbbbbbbbbbb
+- ccccccccccc
+    1. aaaaaa
+    1. bbbbbb
 
 > test test
 
-[https://example.com](https://example.com)
+`test`
 
 ```{.yaml}
 format:
   revealjs:
     # incremental: true
     # mainfont: "Noto Sans JP"
-    scrollable: true
-    self-contained: true
     slide-level: 3
-    slide-number: true
-    # smaller: true
-    theme:
-      - default
-      # - custom.scss
+    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 012345678901234567890
+    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 5aaaaaaaaaaaaaaaaa 6aaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 
-## 2. test
+:::
 
-### 2.1. aa
+::: {.column width="50%"}
 
-|     |     |
-| --- | --- |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
-| aaa | bbb |
+> test test
 
+`test`
 
+```{.py}
+#| include: true
+print("Hello, world!")
+```
 
+:::
+
+::::
+
+## 3. test
+
+### 3.1. aaaaaaaa
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+| aaa | bbb | ccc |
+| --- | --- | --- |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+
+:::
+
+::: {.column width="60%"}
+
+![](/assets/common/title-background.png)
+
+:::
+
+::::
+
+### 3.2. aaaaa
+
+![](/assets/common/title-background.png)
