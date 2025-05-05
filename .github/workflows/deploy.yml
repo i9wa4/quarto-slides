@@ -9,14 +9,7 @@ on:
   pull_request:
     branches:
       - main
-    types:
-      - opened
-      - synchronize
-      - reopened
 permissions: {}
-defaults:
-  run:
-    shell: bash
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
@@ -30,9 +23,6 @@ jobs:
       contents: write
     env:
       TZ: 'Asia/Tokyo'
-    defaults:
-      run:
-        working-directory: .
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
