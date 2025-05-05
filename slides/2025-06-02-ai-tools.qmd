@@ -1,0 +1,90 @@
+---
+title: 2 スライドタイトル スライドタイトル スライドタイトル
+author: uma-chan uma-chan
+date: 2025-06-01
+date-modified: last-modified
+format: revealjs
+---
+
+## 1. aaaa
+
+## 2. test
+
+### 2.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+[https://example.com](https://example.com)
+
+https://example.com
+
+https://example.com
+
+- bbbbbbbbbbbbbb
+- ccccccccccc
+    1. aaaaaa
+    1. bbbbbb
+
+> test test
+
+`test`
+
+```{.yaml}
+format:
+  revealjs:
+    # incremental: true
+    # mainfont: "Noto Sans JP"
+    slide-level: 3
+    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 012345678901234567890
+    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 5aaaaaaaaaaaaaaaaa 6aaaaaaaaaaaaaaaaaaaaaaaaaaa
+```
+
+:::
+
+::: {.column width="50%"}
+
+> test test
+
+`test`
+
+```{.py}
+#| include: true
+print("Hello, world!")
+```
+
+:::
+
+::::
+
+## 3. test
+
+### 3.1. aaaaaaaa
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+| aaa | bbb | ccc |
+| --- | --- | --- |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+| aaa | bbb | ccc |
+
+:::
+
+::: {.column width="60%"}
+
+![](/assets/common/title-background.png)
+
+:::
+
+::::
+
+### 3.2. aaaaa
+
+![](/assets/common/title-background.png)

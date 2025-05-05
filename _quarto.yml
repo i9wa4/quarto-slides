@@ -9,8 +9,6 @@ website:
   navbar: true
 
 format:
-  html:
-    self-contained: true
   revealjs:
     code-copy: true
     code-overflow: wrap
