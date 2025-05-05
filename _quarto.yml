@@ -6,7 +6,8 @@ date-format: iso
 
 website:
   title: "quarto-slides"
-  navbar: true
+  navbar:
+    search: false
 
 format:
   revealjs:
