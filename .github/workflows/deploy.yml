@@ -50,5 +50,3 @@ jobs:
           folder: _output
           branch: html
           clean: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
