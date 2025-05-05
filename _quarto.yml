@@ -19,10 +19,10 @@ format:
     slide-number: true
     theme:
       - default
-      - custom.scss
+      # - custom.scss
     width: 1920
     height: 1080
     title-slide-attributes:
       data-background-color: "#001722"  # Dark Navy
-      data-background-image: "/assets/common/title-background.png"
+      data-background-image: "/assets/common/title-background.jpg"
       data-background-size: "cover"

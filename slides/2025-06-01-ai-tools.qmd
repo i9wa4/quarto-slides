@@ -4,11 +4,9 @@ author: uma-chan
 date: 2025-06-01
 ---
 
-## 1. aaaa
+## 1. test
 
-## 2. test
-
-### 2.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
+### 1.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
 
 :::: {.columns}
 
@@ -35,8 +33,6 @@ format:
     # incremental: true
     # mainfont: "Noto Sans JP"
     slide-level: 3
-    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 012345678901234567890
-    # 1aaaaaaaaaaaaa 2aaaaaaaaaaaaaaaaa 3aaaaaaaaaaaaaaaaa 4aaaaaaaaaaaaaaaa 5aaaaaaaaaaaaaaaaa 6aaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 
 :::
@@ -48,7 +44,6 @@ format:
 `test`
 
 ```{.py}
-#| include: true
 print("Hello, world!")
 ```
 
@@ -56,13 +51,13 @@ print("Hello, world!")
 
 ::::
 
-## 3. test
+## 2. test
 
-### 3.1. aaaaaaaa
+### 2.1. aaaaaaaa
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="30%"}
 
 | aaa | bbb | ccc |
 | --- | --- | --- |
@@ -75,14 +70,10 @@ print("Hello, world!")
 
 :::
 
-::: {.column width="60%"}
+::: {.column width="70%"}
 
-![](/assets/common/title-background.png)
+![](/assets/common/title-background.jpg)
 
 :::
 
 ::::
-
-### 3.2. aaaaa
-
-![](/assets/common/title-background.png)
