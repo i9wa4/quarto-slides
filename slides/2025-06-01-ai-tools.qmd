@@ -2,8 +2,6 @@
 title: スライドタイトル スライドタイトル スライドタイトル
 author: uma-chan uma-chan
 date: 2025-06-01
-date-modified: last-modified
-format: revealjs
 ---
 
 ## 1. aaaa
