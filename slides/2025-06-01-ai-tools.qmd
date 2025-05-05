@@ -1,6 +1,6 @@
 ---
 title: スライドタイトル スライドタイトル スライドタイトル
-author: uma-chan uma-chan
+author: uma-chan
 date: 2025-06-01
 ---
 

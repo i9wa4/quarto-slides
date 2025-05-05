@@ -47,15 +47,15 @@ $presentation-heading-color: $dark-navy;
 $presentation-heading-line-height: 1.15;
 // $presentation-h1-font-size: 28pt;
 // $presentation-h2-font-size: 28pt;
-$presentation-h1-font-size: 49pt;
-$presentation-h2-font-size: 49pt;
+$presentation-h1-font-size: 42pt;
+$presentation-h2-font-size: 42pt;
 
 // 概要 / サブ見出し (h3-h6)
 // h3, h4 はデフォルトで presentation-heading-* を継承するので、サイズのみ指定
 // $presentation-h3-font-size: 18pt;
 // $presentation-h4-font-size: 18pt;
-$presentation-h3-font-size: 32pt;
-$presentation-h4-font-size: 32pt;
+$presentation-h3-font-size: 27pt;
+$presentation-h4-font-size: 27pt;
 // h5, h6 は必要であれば別途スタイルを追加
 
 // 本文 (p)
@@ -69,12 +69,13 @@ $code-block-bg: $light-tone-2;
 $code-block-border-color: $gray-tone-1;
 $code-block-color: $dark-navy;
 $code-color: $accent-purple;
-$code-font-size: 1em !default;
+// $code-font-size: 1em !default;
 // $code-block-font-size: $code-font-size * 0.55 !default;
 // $code-inline-font-size: $code-font-size * 0.875 !default;
 
 // テーブル
 $table-border-color: $gray-tone-1;
+
 
 /*-- scss:rules --*/
 
