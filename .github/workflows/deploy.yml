@@ -44,7 +44,7 @@ jobs:
       - name: Render Quarto Website
         run: |
           quarto render
-      - name: Deploy to GitHub Pages branch
+      - name: Deploy to HTML branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _output
