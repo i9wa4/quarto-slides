@@ -1,10 +1,29 @@
 ---
-title: スライドタイトル スライドタイトル スライドタイトル
+title: Typst
 author: uma-chan
-date: today
+date: 2025-05-06
+# format:
+#   clean-typst:
+#       font-size: 20pt
+#       font-family-heading: Noto Sans JP
+#       font-family-body: Noto Sans JP
+#       font-heading: Noto Sans JP
+#       font-body: Noto Sans JP
+#       # font-weight-body: normal
+#       font-size-title: 2.5em
+#       font-size-subtitle: 1.5em
+#       color-jet: "#272822"
+#       color-accent: "009F8C"
+#       color-accent2: "B75C9D"
+brand:
+  typography:
+    fonts:
+      - family: Noto Sans JP
+        weight: [light, bold]
+        source: google
 ---
 
-## 1. test
+## 1. 試験用タイトル
 
 ### 1.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
 
