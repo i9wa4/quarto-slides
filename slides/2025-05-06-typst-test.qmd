@@ -2,19 +2,19 @@
 title: Typst
 author: uma-chan
 date: 2025-05-06
-# format:
-#   clean-typst:
-#       font-size: 20pt
-#       font-family-heading: Noto Sans JP
-#       font-family-body: Noto Sans JP
-#       font-heading: Noto Sans JP
-#       font-body: Noto Sans JP
-#       # font-weight-body: normal
-#       font-size-title: 2.5em
-#       font-size-subtitle: 1.5em
-#       color-jet: "#272822"
-#       color-accent: "009F8C"
-#       color-accent2: "B75C9D"
+format:
+  clean-typst:
+    font-size: 20pt
+    font-heading: "Noto Sans JP"
+    font-body: "Noto Sans JP"
+    font-family-heading: "Noto Sans JP"
+    font-family-body: "Noto Sans JP"
+    # font-weight-body: normal
+    font-size-title: 2.5em
+    font-size-subtitle: 1.5em
+    color-jet: "#272822"
+    color-accent: "009F8C"
+    color-accent2: "B75C9D"
 brand:
   typography:
     fonts:
@@ -25,11 +25,11 @@ brand:
 
 ## 1. 試験用タイトル
 
-### ref
+### 1.1. ref
 
 https://zenn.dev/nicetak/articles/quarto-typst-slides
 
-### 1.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
+### 1.2. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
 
 :::: {.columns}
 
