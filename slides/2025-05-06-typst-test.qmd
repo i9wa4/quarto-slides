@@ -25,6 +25,10 @@ brand:
 
 ## 1. 試験用タイトル
 
+### ref
+
+https://zenn.dev/nicetak/articles/quarto-typst-slides
+
 ### 1.1. aaaa aaaaaaaaaaaaaaa aaaaaaaaaaaaaaa aaaaaaaaaaa
 
 :::: {.columns}
