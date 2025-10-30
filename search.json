@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "quarto-slides",
-    "section": "",
-    "text": "スライドタイトル スライドタイトル スライドタイトル\n\n\n\n\n\n\n\n\n2025-05-06\n\n\numa-chan\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "slides/2025-05-05-initial-slide.html#試験用タイトル",
     "href": "slides/2025-05-05-initial-slide.html#試験用タイトル",
     "title": "スライドタイトル スライドタイトル スライドタイトル",
@@ -26,5 +19,12 @@
     "title": "スライドタイトル スライドタイトル スライドタイトル",
     "section": "2. test",
     "text": "2. test"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-slides",
+    "section": "",
+    "text": "スライドタイトル スライドタイトル スライドタイトル\n\n\n\n\n\n\n\n\n2025-10-31\n\n\numa-chan\n\n\n\n\n\nNo matching items"
   }
 ]
