@@ -1,0 +1,10 @@
+# zizmor configuration
+# https://docs.zizmor.sh/usage/
+
+rules:
+  artipacked:
+    # We need persist-credentials for github-pages-deploy-action to push to html branch
+    # The workflow only runs on trusted code (main branch push and manual dispatch)
+    # and permissions are already restricted to contents: write
+    ignore:
+      - deploy.yml

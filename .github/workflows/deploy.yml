@@ -25,11 +25,11 @@ jobs:
       TZ: 'Asia/Tokyo'
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
         with:
           fetch-depth: 0
       - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+        uses: quarto-dev/quarto-actions/setup@9e48da27e184aa238fcb49f5db75469626d43adb # v2.1.9
       # - name: (Optional) Set up Python
       #   uses: actions/setup-python@v5
       # - name: (Optional) Set up Jupyter
@@ -39,7 +39,7 @@ jobs:
         run: |
           quarto render
       - name: Deploy to HTML branch
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@6c2d9db40f9296374acc17b90404b6e8864128c8 # v4.7.3
         with:
           folder: _output
           branch: html
